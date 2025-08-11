@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>EspoCRM From Address Fixer - Options</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  label, input, button { font-size: 1rem; }
+  input { padding: 5px; margin: 5px 0; width: 400px; }
+  button { padding: 5px 15px; }
+  .status { margin-top: 10px; color: green; }
+</style>
+</head>
+<body>
+  <h2>EspoCRM From Address Fixer - Options</h2>
+
+  <label for="emailInput">Default "From" email address:</label><br />
+  <input type="email" id="emailInput" placeholder="e.g. myemail@example.com" /><br />
+
+  <label for="urlPatternInput">Permitted URL pattern:</label><br />
+  <input type="text" id="urlPatternInput" placeholder="e.g. https://mycrm.domain.com/*" /><br />
+
+  <button id="saveBtn">Save</button>
+  <div class="status" id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>
