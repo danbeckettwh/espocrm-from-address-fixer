@@ -12,18 +12,29 @@ By default, EspoCRM may not remember your preferred "From" address, requiring yo
 *   Allows you to specify the exact URL pattern of your EspoCRM instance where the extension should run.
 *   Simple configuration via the extension's options page.
 
-## Installation (Sideloading)
+## Installation
 
-Since this is a bespoke extension, it is not on the Chrome Web Store. You can install it by following these steps:
+There are two ways to install this extension. The recommended method is to download a pre-packaged release.
 
-1.  Clone or download this repository to your local machine.
-2.  Open your Chromium-based browser (like Google Chrome, Microsoft Edge, or Brave).
-3.  Navigate to the extensions page (e.g., `chrome://extensions` or `edge://extensions`).
-4.  Enable **Developer mode** using the toggle switch, usually in the top-right corner.
-5.  Click the **"Load unpacked"** button.
-6.  Select the `espo_from_extension` directory from this repository.
+### Option 1: Install from a Release (Recommended)
+
+1.  Go to the **Releases page** for this project.
+2.  Under the **Assets** section, download the source code `.zip` file.
+3.  **Unzip** the downloaded file into a permanent folder on your computer.
+4.  Open your Chromium-based browser (like Google Chrome, Microsoft Edge, or Brave).
+5.  Navigate to the extensions page (e.g., `chrome://extensions` or `edge://extensions`).
+6.  Enable **Developer mode** using the toggle switch, usually in the top-right corner.
+7.  Click the **"Load unpacked"** button.
+8.  Select the `espo_from_extension` sub-directory from inside the folder you just unzipped.
 
 The extension is now installed.
+
+### Option 2: Install from Source (For Developers)
+
+If you want to view or modify the code, you can install it directly from the source files.
+
+1.  Clone or download this repository to your local machine.
+2.  Follow steps 4-8 from Option 1.
 
 ## Configuration
 
@@ -56,3 +67,9 @@ To this (using your own domain):
 ```
 
 After saving the change, go back to your `chrome://extensions` page and click the "reload" icon on the extension card to apply the new permissions.
+
+## License
+
+This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+
+You are free to use, share, and adapt this software for any purpose, including for commercial use. If you modify and distribute this software, you must do so under the same "ShareAlike" license to ensure that the project and its derivatives remain free and open.
